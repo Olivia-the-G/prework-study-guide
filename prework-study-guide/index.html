@@ -19,11 +19,12 @@
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represenets the visible content shown to the user.</li>
-          <li>'li' stands for list item.</li>
-          <li>'ul' and 'ol' stand for unordered/ordered list.</li>
-          <li>'h1' through 'h6' tell the computer what size of header the text is.</li>
-          <li>The 'section' element is how you separate different elements. See "parent/child elements".</li>
-          <li>Parent elements are the larger elements that contain the child elements eg. 'section' = parent, 'h2' = child.</li>
+          <li>li = list item</li>
+          <li>ul = unordered  list</li>
+          <li>ol = ordered list</li>
+          <li>h1 - 6 tell the computer what size of header the text is</li>
+          <li>The "section" element is how you separate different elements. See "parent/child elements".</li>
+          <li>Parent elements are the larger elements that contain the child elements eg. section = parent, h2 = child.</li>
         </ul>
         </section>
 
@@ -34,21 +35,22 @@
             <li>A padding indicates how much space we want around the content inside an element.</li>
             <li>For your CSS code to affect your project, you need to link it to your other files.</li>
             <li>A class selector allows you to give property assigments to only some elements instead of all of them.</li>
+            <li>Here's some examples of properties you can change: text-allign, padding-left/right/top/bottom, margin, width, height, color, background-color, font-size, border, etc.</li>
           </ul>
         </section>
 
       <section class="card" id="git-section">
           <h2>Git</h2>
           <ul>
-            <li>git status: checks what branch we are currently on</li>
-            <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-            <li>The git flow is the order you perform the steps of uploading you work to github</li>
+            <li>git status: checks what branch we are currently on.</li>
+            <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+            <li>The git flow is the order you perform the steps of uploading your work to github.</li>
             <li>The git flow goes like this...</li>
               <ol>
-                <li>In the terminal, make sure you are in the correct directory and branch, and run the command 'git add -A' to stage your changes.</li>
-                <li>Add a commit message that describes the changes made to the code using the command 'git commit -m "<your message here>"</li>
-                <li>Make sure your local branch is up to date. Run 'git pull origin main'.</li>
-                <li>Push up your changes to the remote repo. Run 'git push origin (your current feature branch)</li>
+                <li>In the terminal, make sure you are in the correct directory and branch, and run the command 'git add -A' to stage your changes</li>
+                <li>Add a commit message that describes the changes made to the code using the command 'git commit -m "your message here"'</li>
+                <li>Make sure your local branch is up to date by running 'git pull origin main'</li>
+                <li>Push up your changes to the remote repo by running 'git push origin (your current feature branch)'</li>
               </ol>
           </ul>
         </section>
@@ -56,9 +58,20 @@
       <section class="card" id="javascript-section">
           <h2>Javascript</h2>
           <ul>
-            <li>A variable is a named container that allows us to store date in our code.</li>
+            <li>A variable is a named container that allows us to store data in your code.</li>
             <li>Control flow is the order in which a computer executes code in a script.</li>
             <li>The control flow affects how your code needs to be written. In order to use a variable in a function or otherwise, the variable needs to be defined first. Order matters!</li>
+            <li>An array is a single variable used to hold a group of data.</li>
+            <li>You can access the data inside an array by using the index value of the item we want.</li>
+            <li>A for loop allows you to repeat a single block of code over and over on each item in an array.</li>
+            <li>For loop structure = Starting point; Condition; Final statement. </li>
+              <ol>
+                <li>Starting point: The first index of an array is always 0, so we declare a variable x and assign it a value of zero. </li>
+                <li>Condition: Using the length propery we can express that we want the loop to continue as long as the variable x is less than the length of the array.</li>
+                <li>Final Statement: This is what we are telling the loop to do each time. We can use x++ to increase the number by 1 each time the loop repeats.</li>
+                <li>eg. for(var x = 0; x < shapes.length; x++) { // code block}</li>
+              </ol>
+            <li>Functions need to be followed by parenthases ()</li>
           </ul>
         </section>
     </main>

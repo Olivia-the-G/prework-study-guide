@@ -6,14 +6,20 @@
 header,
 footer {
   width:100%;
-  height: 120px;
+  height: 135px;
   background-color: darkslateblue;
   color: white;
 }
 
-h1,
+h1 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
 h2 {
   text-align: center;
+  padding-top: 5px;
 }
 
 img {
@@ -26,18 +32,23 @@ img {
 
 ul {
   padding-left: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
   font-size: 20px;
 }
 
 ol {
   padding-left: 25px;
-  padding-right: 10px;
+  padding-right: 25px;
+  padding-top: 5px;
   font-size: 17px;
   color:darkslategrey
 }
 
 p {
   text-align: center;
+  padding-top: 5px;
   font-size: 30px;
 }
 
