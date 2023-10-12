@@ -2,6 +2,8 @@
 
 ## Description
 
+https://olivia-the-g.github.io/prework-study-guide/ 
+
 This webpage is meant to serve as an aid for bootcamp students that are working through the prework. I built this project to make it easy for myself and others to review the topics learned in the prework before the bootcamp begins. Working on this project not only helped me to learn the process of building a website from scratch, but it also encouraged me to try things on my own. I wanted to make the webpage look as nice as possible so that it would be easy to read and wouldn't distract from the information. I spent a lot of time messing around with different properties on the style.css file in order to make the site look how I wanted it to, and this taught me so much about CSS! I don't know exaclty how much creative freedom I was allowed to have on this project but I figured I couldn't get in trouble for going beyond the material. At the very least I am happy with how my work turned out. 
 
 ## Installation
